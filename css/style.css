@@ -49,11 +49,13 @@ table {
 
 /* =======================================================
 *
-colores:
+colores CANCER PROSTATA:
 dorado= #ffcc00
 dorado activo= #ff5e00
 celeste= #09C3DC
 azul= #2d83c0
+morado= #565f9a
+morado oscuro= #505999
 gris claro= #f5f4f1
 gris oscuro= #D3D3D3
 *
@@ -165,9 +167,12 @@ figure {
 .dorado{
   color: #ffcc00;
 }
+.morado{
+  color: #565f9a;
+}
 .bgdorado{
   font-weight: 700;
-  color: #2d83c0;
+  color: #505999;
   letter-spacing: 1.5px;
   background-color: #ffcc00;
   padding-left: 3px;
@@ -177,7 +182,7 @@ figure {
   font-weight: 400;
   color: white;
   letter-spacing: 1.5px;
-  background-color: #09C3DC;
+  background-color: #565f9a;
   padding-left: 3px;
   padding-right: 2px;
 }
@@ -218,6 +223,13 @@ figure {
 		padding-top: 20px;
 		padding-bottom: 20px;
 }
+.centrada{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 10px;
+		padding-bottom: 10px;
+}
 #ico-page {
   width: 100%;
   overflow: hidden;
@@ -232,8 +244,9 @@ figure {
   bottom: 0;
   top: 0;
   left: 0;
-  background-color: #f5f4f1;
+  background-color: #565f9a;
   overflow-y: scroll;
+	overflow-x: hidden;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -262,7 +275,7 @@ figure {
 #ico-aside #ico-main-menu ul {
   text-align: left;
   margin: 0;
-  padding: 10px;
+  padding: 20px;
 }
 @media screen and (max-width: 768px) {
   #ico-aside #ico-main-menu ul {
@@ -275,7 +288,7 @@ figure {
   list-style: none;
 }
 #ico-aside #ico-main-menu ul li a {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
   font-size: 12px;
   font-weight: 600;
@@ -284,10 +297,11 @@ figure {
   -o-transition: 0.3s;
   transition: 0.3s;
   padding: 10px 0px;
+	margin-left: -10px;
   font-family: "Montserrat", Arial, sans-serif;
 }
 #ico-aside #ico-main-menu ul ol li a {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.5);
   text-decoration: none;
   font-size: 12px;
   font-weight: 100;
@@ -301,7 +315,7 @@ figure {
   letter-spacing: -.4px;
 }
 #ico-aside #ico-main-menu ol {
-  padding-left: 5px;
+  padding-left: 10px;
   letter-spacing: -1px;
 }
 #ico-aside #ico-main-menu ul li a:after {
@@ -309,7 +323,7 @@ figure {
   position: absolute;
   height: 4px;
   bottom: 7px;
-  left: 0px;
+  left: 4px;
   right: 0px;
   background-color: #ffcc00;
   visibility: hidden;
@@ -326,7 +340,7 @@ figure {
 }
 #ico-aside #ico-main-menu ul li a:hover {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 #ico-aside #ico-main-menu ul li a:hover:after {
   visibility: visible;
@@ -385,7 +399,6 @@ figure {
   outline: none;
   color: #ffcc00;
 }
-
 #ico-main {
   width: 84%;
   float: right;
@@ -415,7 +428,6 @@ figure {
     padding: 3.5em 1em;
   }
 }
-
 body.offcanvas {
   overflow-x: hidden;
 }
@@ -450,7 +462,7 @@ body.offcanvas #ico-main, body.offcanvas .ico-nav-toggle {
 }
 
 .ico-table th {
-  background-color: #09C3DC;
+  background-color: #565f9a;
 }
 
 .table-borde {
@@ -601,7 +613,7 @@ body.offcanvas #ico-main, body.offcanvas .ico-nav-toggle {
   letter-spacing: .2em;
   padding: 4px 8px;
 	color: white;
-  background: #09C3DC;
+  background: #565f9a;
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
