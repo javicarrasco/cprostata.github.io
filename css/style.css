@@ -497,7 +497,13 @@ body.offcanvas #ico-main, body.offcanvas .ico-nav-toggle {
 .ico-border-bottom {
   border-bottom: 1px solid #f0f0f0;
 }
-
+.tituloColor {
+	padding: 0px 10px;
+	color: #fff;
+	background: url(../images/BGoscuro.jpg);
+  display: -moz-inline-stack;
+  display: inline-block;
+}
 .ico-franja {
   padding: 3em 0;
 	background: url(../images/BGoscuro.jpg);
