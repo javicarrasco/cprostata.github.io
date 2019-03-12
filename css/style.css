@@ -233,11 +233,34 @@ figure {
 	padding: 15px;
 }
 .centrada{
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		padding-top: 10px;
-		padding-bottom: 10px;
+	display: flex;
+  justify-content: center;
+	margin: 10px auto;
+}
+.contenedor {
+    display: flex;
+    align-items: center;
+}
+.piefoto {
+	  max-width: 600px;
+    margin: 0 auto;
+}
+.piefoto p{
+	  text-align: center;
+		font-style: italic;
+}
+.destacado {
+	  max-width: 500px;
+    margin: 0 auto;
+}
+.destacado h5{
+		font-weight: 600;
+	  text-align: center;
+		color: #565f9a;
+}
+.destacado p{
+	  text-align: center;
+		color: #565f9a;
 }
 #ico-page {
   width: 100%;
