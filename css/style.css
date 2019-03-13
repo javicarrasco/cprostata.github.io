@@ -160,9 +160,6 @@ figure {
   font-style: italic;
   opacity: 0.9;
 }
-.cursiva{
-  font-style: italic;
-}
 .dorado{
   color: #ffcc00;
 }
@@ -233,11 +230,38 @@ figure {
 	padding: 15px;
 }
 .centrada{
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		padding-top: 10px;
-		padding-bottom: 10px;
+	display: flex;
+  justify-content: center;
+	margin: 10px auto;
+}
+.contenedor {
+    display: flex;
+    align-items: center;
+}
+.piefoto {
+	  max-width: 600px;
+    margin: 0 auto;
+}
+.piefoto p{
+	  text-align: center;
+		font-style: italic;
+		opacity: 0.9;
+}
+.destacado {
+	  max-width: 500px;
+    margin: 0 auto;
+		opacity: 0.9;
+}
+.destacado h5{
+		font-weight: 600;
+	  text-align: center;
+		color: #565f9a;
+		margin-bottom: -9px;
+}
+.destacado p{
+		line-height: 1.2;
+	  text-align: center;
+		color: #565f9a;
 }
 #ico-page {
   width: 100%;
@@ -497,7 +521,13 @@ body.offcanvas #ico-main, body.offcanvas .ico-nav-toggle {
 .ico-border-bottom {
   border-bottom: 1px solid #f0f0f0;
 }
-
+.tituloColor {
+	padding: 0px 10px;
+	color: #fff;
+	background: url(../images/BGoscuro.jpg);
+  display: -moz-inline-stack;
+  display: inline-block;
+}
 .ico-franja {
   padding: 3em 0;
 	background: url(../images/BGoscuro.jpg);
