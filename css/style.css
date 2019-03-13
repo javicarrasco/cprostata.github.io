@@ -257,10 +257,12 @@ figure {
 		font-weight: 600;
 	  text-align: center;
 		color: #565f9a;
+		margin-bottom: -5px;
 }
 .destacado p{
 	  text-align: center;
 		color: #565f9a;
+		line-height: 1.2;
 }
 #ico-page {
   width: 100%;
