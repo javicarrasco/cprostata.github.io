@@ -160,9 +160,6 @@ figure {
   font-style: italic;
   opacity: 0.9;
 }
-.cursiva{
-  font-style: italic;
-}
 .dorado{
   color: #ffcc00;
 }
@@ -248,21 +245,23 @@ figure {
 .piefoto p{
 	  text-align: center;
 		font-style: italic;
+		opacity: 0.9;
 }
 .destacado {
 	  max-width: 500px;
     margin: 0 auto;
+		opacity: 0.9;
 }
 .destacado h5{
 		font-weight: 600;
 	  text-align: center;
 		color: #565f9a;
-		margin-bottom: -5px;
+		margin-bottom: -9px;
 }
 .destacado p{
+		line-height: 1.2;
 	  text-align: center;
 		color: #565f9a;
-		line-height: 1.2;
 }
 #ico-page {
   width: 100%;
